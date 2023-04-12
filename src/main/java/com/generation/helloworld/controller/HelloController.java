@@ -13,8 +13,13 @@ public class HelloController {
 		return "<b>Hello Turma 62!</b>";
 	}
 	
-	@GetMapping("/nome")
-	public String meuNome() {
-		return "<b>Heimy</b>";
+	@GetMapping("/bsm")
+	public String listaBsm() {
+		return "<b>Persistência</br>Mentalidade de Crescimento</br>Proatividade</br>Orientação ao Futuro</br>Responsabilidade Pessoal</br>Comunicação</b>";
+	}
+	
+	@GetMapping("/objetivo")
+	public String objetivoAprendizagem() {
+		return "<b>Proatividade</b>";
 	}
 }
